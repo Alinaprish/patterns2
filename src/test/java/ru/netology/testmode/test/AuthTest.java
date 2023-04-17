@@ -54,6 +54,7 @@ class AuthTest {
     }
 
 
+    @Test
     @DisplayName("Should get error message if login with wrong login")
     void shouldGetErrorIfWrongLogin() {
         var registeredUser = getRegisteredUser("active");
